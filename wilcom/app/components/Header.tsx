@@ -25,7 +25,7 @@ export default function Header() {
         {/* ---------- LOGO ---------- */}
         <Link href="/" className="flex items-center gap-2.5">
           {/* Inline SVG logo — swap for <Image /> if you have a file */}
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 to-violet-500 text-white">
+          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-linear-to-br from-blue-500 to-violet-500 text-white">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
               <path d="M2 7.5 20 3l1.5 5L3.5 12.5 2 7.5Z" />
               <path d="M22 8v6" />

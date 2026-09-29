@@ -3,11 +3,13 @@
     "@clerk/nextjs": "^7.9.8",
     "@prisma/adapter-neon": "^7.10.0",
     "@prisma/client": "^7.10.0",
-    "@prisma/orm-postgres": "^8.0.0-rc.13",
-    "dotenv": "^18.0.4"
+    "@prisma/orm-postgres": "^8.0.0-rc.11",
+    "dotenv": "^18.0.4",
+    "prisma": "^8.0.0-rc.15"
   },
   "devDependencies": {
-    "prisma": "^7.10.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "tsx": "^4.23.15"
   },
   "allowScripts": {

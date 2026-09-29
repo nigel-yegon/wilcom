@@ -201,7 +201,7 @@ export default function ContactPage() {
                   (t) => (
                     <label
                       key={t}
-                      className="cursor-pointer rounded-lg border border-neutral-800 bg-neutral-900 px-4 py-2 text-sm text-neutral-300 transition has-[:checked]:border-blue-500 has-[:checked]:bg-blue-500/10 has-[:checked]:text-white"
+                      className="cursor-pointer rounded-lg border border-neutral-800 bg-neutral-900 px-4 py-2 text-sm text-neutral-300 transition has-checked:border-blue-500 has-checked:bg-blue-500/10 has-checked:text-white"
                     >
                       <input
                         type="radio"
@@ -218,7 +218,7 @@ export default function ContactPage() {
 
             <button
               type="submit"
-              className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-500 to-violet-500 px-6 py-3.5 text-sm font-semibold text-white transition hover:opacity-90 sm:w-auto"
+              className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-violet-500 px-6 py-3.5 text-sm font-semibold text-white transition hover:opacity-90 sm:w-auto"
             >
               Send request
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
@@ -243,7 +243,7 @@ export default function ContactPage() {
               <ul className="mt-5 space-y-4">
                 {contactDetails.map((c) => (
                   <li key={c.label} className="flex items-start gap-3">
-                    <span className="mt-0.5 flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-800 text-neutral-300">
+                    <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-neutral-800 text-neutral-300">
                       {c.icon}
                     </span>
                     <div>

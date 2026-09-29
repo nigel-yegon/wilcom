@@ -85,7 +85,7 @@ export default function ServicesPage() {
         </span>
         <h1 className="mt-6 text-4xl font-bold tracking-tight sm:text-5xl">
           Services Built Around{" "}
-          <span className="bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">
             Your Needs
           </span>
         </h1>
@@ -105,7 +105,7 @@ export default function ServicesPage() {
             >
               {/* Icon */}
               <div
-                className={`mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br ${service.accent} text-white shadow-lg`}
+                className={`mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-linear-to-br ${service.accent} text-white shadow-lg`}
               >
                 {service.icon}
               </div>
@@ -123,7 +123,7 @@ export default function ServicesPage() {
                 {service.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-2">
                     <svg
-                      className="mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-400"
+                      className="mt-0.5 h-4 w-4 shrink-0 text-emerald-400"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"

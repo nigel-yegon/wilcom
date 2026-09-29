@@ -155,7 +155,7 @@ export default function HomePage() {
 
           <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             ICT Solutions That{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">
               Power Your Business
             </span>
           </h1>
@@ -169,7 +169,7 @@ export default function HomePage() {
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-500 to-violet-500 px-6 py-3.5 text-sm font-semibold text-white transition hover:opacity-90"
+              className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-violet-500 px-6 py-3.5 text-sm font-semibold text-white transition hover:opacity-90"
             >
               Request a Quote
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
@@ -192,7 +192,7 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-6 py-10 lg:grid-cols-4">
           {highlights.map((h) => (
             <div key={h.label} className="flex items-center gap-3">
-              <span className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-800 text-blue-400">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-neutral-800 text-blue-400">
                 {h.icon}
               </span>
               <div>
@@ -260,7 +260,7 @@ export default function HomePage() {
             <ul className="mt-6 space-y-4">
               {coreValues.map((value) => (
                 <li key={value} className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5">
                       <polyline points="20 6 9 17 4 12" />
                     </svg>
@@ -306,7 +306,7 @@ export default function HomePage() {
                 id={s.id}
                 className="group flex flex-col rounded-2xl border border-neutral-800 bg-neutral-900/50 p-7 transition hover:border-neutral-700 hover:bg-neutral-900"
               >
-                <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/20 to-violet-500/20 text-blue-400">
+                <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br from-blue-500/20 to-violet-500/20 text-blue-400">
                   {s.icon}
                 </div>
                 <h3 className="text-lg font-semibold text-white">{s.title}</h3>
@@ -331,7 +331,7 @@ export default function HomePage() {
 
       {/* ---------- CTA ---------- */}
       <section className="mx-auto max-w-6xl px-6 py-24">
-        <div className="relative overflow-hidden rounded-3xl border border-neutral-800 bg-gradient-to-br from-blue-500/10 via-neutral-900 to-violet-500/10 p-10 text-center sm:p-14">
+        <div className="relative overflow-hidden rounded-3xl border border-neutral-800 bg-linear-to-br from-blue-500/10 via-neutral-900 to-violet-500/10 p-10 text-center sm:p-14">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Ready to upgrade your ICT?
           </h2>
@@ -342,7 +342,7 @@ export default function HomePage() {
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-500 to-violet-500 px-6 py-3.5 text-sm font-semibold text-white transition hover:opacity-90"
+              className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-violet-500 px-6 py-3.5 text-sm font-semibold text-white transition hover:opacity-90"
             >
               Request a Quote
             </Link>
