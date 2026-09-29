@@ -1,3 +1,4 @@
+import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import Header from "./components/Header";
 import "./globals.css";
@@ -18,8 +19,10 @@ export default function RootLayout({
         className="min-h-full flex flex-col bg-neutral-950 text-neutral-100 antialiased"
         suppressHydrationWarning
       >
-        <Header />
-        <main className="flex-1">{children}</main>
+        <ClerkProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+        </ClerkProvider>
       </body>
     </html>
   );
